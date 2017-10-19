@@ -1,0 +1,29 @@
+<%- include('./../_partials/head') %>
+
+    <h2 class="text-center">All Messages</h2>
+    <br>
+    <br>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Message</th>
+            </tr>    
+        </thead>
+        <% messages.forEach(function(m) { %>
+        <tbody>
+            <tr>
+                <td><%= m.name %></td>
+                <td><%= m.message %></td>
+            </tr>
+        </tbody>
+        <% }); %>
+    </table>
+    <br>
+    <div class="cont">
+        <a class="btn btn-primary" role="button" href="/messages/new">Create new message</a>
+    </div>
+
+    
+
+<%- include('./../_partials/footer') %>

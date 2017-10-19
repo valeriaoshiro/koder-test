@@ -1,0 +1,22 @@
+<%- include('./../_partials/head') %>
+
+    <h2 class="text-center">Enter a New Message</h2>
+    <br>
+    <br>
+    <form action="/api/sendMessage" method="post">
+        <div class="form-group">
+            <label for="name">Name: </label>
+            <input type="text" class="form-control" id="name" name="name">
+        </div><br>
+        <div class="form-group">
+            <label for="message">Message: </label>
+            <input type="text" class="form-control" id="message" name="message">
+        </div><br>
+        <button type="submit" class="btn btn-primary"> Submit</button>
+    </form>
+    <br>
+    <div class="cont">
+        <a class="btn btn-primary" role="button" href="/">Back</a>
+    </div>
+
+<%- include('./../_partials/footer') %>

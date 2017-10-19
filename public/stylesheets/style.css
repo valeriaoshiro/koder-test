@@ -1,0 +1,32 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.table {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.cont {
+  text-align: center;
+}
+
+.btn {
+  text-align: center;
+  background-color: #5D4596;
+  border-color: #5D4596;
+}
+
+.btn:hover {
+  background-color: #5fb0e5;
+}
+
+form {
+  width: 70%;
+  margin: 0 auto;
+}
