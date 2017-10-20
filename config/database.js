@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
  mongoose.Promise = Promise;
 
- mongoose.connect('mongodb://localhost/messages');
+ mongoose.connect('mongodb://koderAdmin:Koder123@ds036079.mlab.com:36079/koder');
 
  var db = mongoose.connection;
  
